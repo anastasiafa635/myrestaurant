@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: 300;
+  color: #222;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+.wrapper {
+  width: 1280 px;
+  margin: 50px auto;
+}
+
+header .logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+header ul.nav {
+  float: right;
+  list-style: none;
+}
+
+header ul.nav li {
+  font-family: "Montserrat", sans-serif;
+  display: inline;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: opacity 500ms ease;
+}
+header ul.nav li:hover {
+  opacity: 0.5;
+}
+header .presentation {
+  margin: 50px 0;
+  background: url('./img/main.jpg')no-repeat; 
+  width: 1670px;
+  height: 1000px;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #808080;
+  position: relative;
+}
+header .presentation:after {
+  content:'Flavors Inspired be the Reasons '; 
+  position: absolute;
+  top: 200px;
+  left: 600px;
+  width: 600px;
+  font-size: 90px;
+  font-weight: 600px;
+  color: white;
+  text-align: center;
+
+}
+header .presentation:before {
+  font-family: "Montserrat", sans-serif;
+  content:'View our menu'; 
+  position: absolute;
+  top: 450px;
+  left: 800px;
+  width: 300px;
+  font-size: 20px;
+  font-weight: 300px;
+  color: white;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 10px;
+}
